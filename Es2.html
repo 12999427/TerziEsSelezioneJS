@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Es 2
+    </title>
+    <meta charset="UTF-8">
+    <script src="Es2.js"></script>
+</head>
+<body>
+    <h1>
+        Es 2 Terzi Es Selezione JS
+    </h1>
+    <p>Veicolo:</p>
+    <input type="radio" id="MezzoA" name="Mezzo" value="A"><label for="MezzoA">Auto</label>
+    <br>
+    <input type="radio" id="MezzoM" name="Mezzo" value="M"><label for="MezzoM">Moto</label>
+    <br><br>
+    <label for="Tipo">
+        Tipologia di parcheggi
+    </label>
+    <select id="Tipo" name="Tipologie" required>
+        <option value="Coperto">Coperto</option>
+        <option value="Scperto">Scoperto</option>
+    </select>
+    <br><br>
+    <label for="Tempo">
+        Tempo di parcheggio:
+    </label>
+    <input type="number" id="Tempo" required>
+    <label for="Tempo">
+        minuti
+    </label>
+    <br><br>
+    <button onclick="calcola()">Calcola</button>
+    <div id="output"></div>
+</body>
